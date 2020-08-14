@@ -14,7 +14,7 @@
 .subscription__input {
   border: 1px solid rgba(85, 85, 85, 0.459);
   border-radius: 4px;
-  width: clamp(300px, 40%, 500px);
+  width: 80%;
   padding: 1em;
   font-family: inherit;
   color: #555;
@@ -28,3 +28,4 @@
 .subscription__input:invalid {
   border: 1px solid #f35221;
 }
+

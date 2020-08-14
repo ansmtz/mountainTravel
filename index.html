@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mountain Travel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/sass/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <a href="#" class="logo">
+            Website Logo
+          </a>
+          <ul class="header__navigation-list">
+            <li class="header__navigation-item">
+              <a href="#" class="header__navigation-link">Home</a>
+            </li>
+            <li class="header__navigation-item">
+              <a href="#" class="header__navigation-link">Products</a>
+            </li>
+            <li class="header__navigation-item">
+              <a href="#" class="header__navigation-link">About</a>
+            </li>
+            <li class="header__navigation-item">
+              <a href="#" class="header__navigation-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="hero">
+          <h1 class="hero__title">
+            Responsive Flexbox Template
+          </h1>
+          <h3 class="hero__subtitle">
+            A freebie by Tutorialzine.
+          </h3>
+          <button class="cta-btn">
+            Download it here
+          </button>
+        </section>
+      </div>
+    </header>
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery__description">
+          <h4 class="title">Some of our work</h4>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id
+            felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed
+            aliquam dictum sapien, id sagittis augue malesuada eu.
+          </p>
+          <hr class="line" />
+        </div>
+        <div class="gallery__photos">
+          <div class="row">
+            <div data-aos="fade-left" class="gallery__photo">
+              <img src="./assets/img/mountain1.jpg" alt="Ocean" />
+            </div>
+            <div data-aos="fade-right" class="gallery__photo gallery__photo--expanded">
+              <img
+                src="./assets/img/mountain2.jpg"
+                alt="Small island in the sea"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div data-aos="fade-left" class="gallery__photo gallery__photo--expanded">
+              <img src="./assets/img/mountain3.jpg" alt="Ballon lands" />
+            </div>
+            <div data-aos="fade-right" class="gallery__photo">
+              <img src="./assets/img/mountain4.jpg" alt="Mountains" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="features__description">
+          <h4 class="title">Features and services</h4>
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id
+            felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed
+            aliquam dictum sapien, id sagittis augue malesuada eu.
+          </p>
+          <hr class="line" />
+        </div>
+          <div class="features__cards">
+            <div class="feature__card">
+              <i class="feature__card-icon fa fa-camera-retro"></i>
+              <h5 class="feature__card-title">Photography</h5>
+              <p class="feature__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                id felis et ipsum bibendum ultrices vitae pulvinar velit.
+              </p>
+            </div>
+            <div class="feature__card">
+              <i class="feature__card-icon fa fa-cubes"></i>
+              <h5 class="feature__card-title">Web Development</h5>
+              <p class="feature__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                id felis et ipsum bibendum ultrices vitae pulvinar velit.
+              </p>
+            </div>
+            <div class="feature__card">
+              <i class="feature__card-icon fa fa-newspaper"></i>
+              <h5 class="feature__card-title">Content Editing</h5>
+              <p class="feature__card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                id felis et ipsum bibendum ultrices vitae pulvinar velit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <h4 class="title">What others say:</h4>
+        <blockquote class="testimonial">
+          <p class="testimonial__content">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <footer class="testimonial__author">— Patrick Farrell</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p class="testimonial__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
+            </p>
+          <footer class="testimonial__author">— George Smith</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p class="testimonial__content">
+            Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.
+            </p>
+          <footer class="testimonial__author">— Kevin Blake</footer>
+        </blockquote>
+      </div>
+    </section>
+    <section class="subscription">
+      <div class="subscription__description">
+      <h4 class="title">Join our newsletter</h4>
+      <p class="paragraph">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.
+      </p>
+      <hr class="line"/>
+      </div>
+      <form class="subscription__form">
+        <input class="subscription__input" type="email" placeholder="Email"/>
+        <button class="cta-btn" type="submit">subscribe now</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer__social">
+        <a class="footer__social-link" href="#"><i class="fab fa-twitter-square"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-snapchat-square"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-pinterest-square"></i></a>
+        <a class="footer__social-link" href="#"><i class="fab fa-github-square"></i></a>
+      </div>
+      <span class="footer__info">
+        Anthony Sedov
+      </span>
+    </footer>
+    <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+    <script src="./scripts/aos.js"></script>
+  </body>
+</html>

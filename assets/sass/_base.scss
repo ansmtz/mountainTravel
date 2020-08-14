@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: calc(3em + 1vw);
+}
+
+h2 {
+  font-size: calc(1.6em + 1vw);
+}
+
+h3 {
+  font-size: calc(1.2em + 1vw);
+}
+
+h4 {
+  font-size: calc(1em + 1vw);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: calc(0.6em + 1vw);
+}

@@ -1,0 +1,17 @@
+.hero {
+  width: 100%;
+  margin: 25vh auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0;
+  animation: fadein-slide 0.6s ease-in 0.6s forwards;
+}
+
+.hero__title {
+  letter-spacing: 0.6px;
+  font-weight: bold;
+}
+.hero__subtitle {
+  font-weight: normal;
+  margin-top: 2rem;
+}

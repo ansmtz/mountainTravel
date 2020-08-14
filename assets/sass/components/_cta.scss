@@ -1,0 +1,20 @@
+.cta-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 1em 2em;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  font-family: inherit;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #2196f3;
+}
+.cta-btn:hover {
+  background-color: #3099f0;
+}
+.cta-btn:focus,
+.cta-btn:active {
+  background-color: #2196f3;
+}

@@ -1,0 +1,30 @@
+.subscription {
+  padding: 10rem 0;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.subscription__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.subscription__input {
+  border: 1px solid rgba(85, 85, 85, 0.459);
+  border-radius: 4px;
+  width: clamp(300px, 40%, 500px);
+  padding: 1em;
+  font-family: inherit;
+  color: #555;
+  transition: border 0.6s ease-out;
+}
+
+.subscription__input:focus {
+  border: 1px solid #2196f3;
+}
+
+.subscription__input:invalid {
+  border: 1px solid #f35221;
+}
